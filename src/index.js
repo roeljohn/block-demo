@@ -18,6 +18,7 @@ import './style.scss';
  * Internal dependencies
  */
 import Edit from './edit';
+import save from './save';
 import metadata from './block.json';
 const calendarIcon = (
     <svg
@@ -40,4 +41,5 @@ registerBlockType( metadata.name, {
 	 */
 	icon: calendarIcon,
 	edit: Edit,
+    save
 } );

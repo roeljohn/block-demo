@@ -8,6 +8,9 @@
 	"description": "Example block scaffolded with Create Block tool.",
 	"example": {},
 	"attributes": {
+		"fallbackCurrentYear": {
+			"type": "string"
+		},
 		"showStartingYear": {
 			"type": "boolean"
 		},
